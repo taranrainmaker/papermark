@@ -339,7 +339,7 @@ export default function ViewPage({ i18n }: ViewerI18nPageProps) {
                 : "text-white",
             )}
           >
-            Papermark
+            TaranVault
           </div>
         );
       case "none":

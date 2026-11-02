@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import EmailVerificationClient from "./page-client";
 
 const data = {
-  description: "Verify your login to Papermark",
-  title: "Verify Login | Papermark",
+  description: "Verify your login to TaranVault",
+  title: "Verify Login | TaranVault",
   url: "/auth/email",
 };
 
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     url: data.url,
-    siteName: "Papermark",
+    siteName: "TaranVault",
     images: [
       {
         url: "/_static/meta-image.png",

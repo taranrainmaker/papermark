@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import SAMLCallbackClient from "./page-client";
 
 export const metadata: Metadata = {
-  title: "SSO Login | Papermark",
+  title: "SSO Login | TaranVault",
   description: "Completing SSO login",
 };
 

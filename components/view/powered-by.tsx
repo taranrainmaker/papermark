@@ -16,7 +16,7 @@ export const PoweredBy = ({ linkId }: { linkId: string }) => {
             style={{ paddingInlineStart: "12px", paddingInlineEnd: "12px" }}
           >
             {t("poweredBy.shareDocsVia", "Share docs via")}{" "}
-            <span className="font-semibold tracking-tighter">Papermark</span>
+            <span className="font-semibold tracking-tighter">TaranVault</span>
           </a>
         </div>
       </div>

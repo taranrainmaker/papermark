@@ -41,7 +41,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import PapermarkSparkle from "../shared/icons/papermark-sparkle";
+import TaranVaultSparkle from "../shared/icons/papermark-sparkle";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -142,7 +142,7 @@ export default function Nav({
   const [showConversations, setShowConversations] = useState(false);
   const brandColor = brand?.brandColor || "black";
   const navColorPalette = createAdaptiveSurfacePalette(brandColor);
-  const resolvedBrandLogo = resolveBrandLogo(brand);
+  const resolvedBrandLogo = { kind: "papermark" } as const;
   const renderBrandLogo = () => {
     switch (resolvedBrandLogo.kind) {
       case "custom":
@@ -161,7 +161,7 @@ export default function Nav({
             className="text-2xl font-bold tracking-tighter"
             style={{ color: navColorPalette.textColor }}
           >
-            Papermark
+            TaranVault
           </Link>
         );
       case "none":

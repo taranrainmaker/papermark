@@ -280,7 +280,7 @@ function EmptyState() {
           No API keys yet
         </p>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          Create your first API key to use the Papermark API.
+          Create your first API key to use the TaranVault API.
         </p>
       </div>
     </div>

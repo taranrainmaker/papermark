@@ -77,7 +77,7 @@ export default function WebhookSettings() {
                     </UpgradePlanModal>
                   ) : (
                     <BadgeTooltip
-                      content="Send data to external services when events happen in Papermark"
+                      content="Send data to external services when events happen in TaranVault"
                       className="max-w-80 text-left leading-5 text-gray-600"
                     >
                       <CircleHelpIcon className="h-4 w-4 text-gray-400" />
@@ -86,7 +86,7 @@ export default function WebhookSettings() {
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Send data to external services when events happen in
-                  Papermark.
+                  TaranVault.
                 </p>
               </div>
               <Link href="/settings/webhooks/new">

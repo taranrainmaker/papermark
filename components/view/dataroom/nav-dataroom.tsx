@@ -337,7 +337,7 @@ export default function DataroomNav({
                 : "text-white",
             )}
           >
-            Papermark
+            TaranVault
           </Link>
         );
       case "none":

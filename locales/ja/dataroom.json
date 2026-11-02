@@ -4,7 +4,7 @@
     "updatedOn": "{{date}} に更新",
     "lastUpdated": "最終更新 {{date}}",
     "secureFooter": "セキュリティ提供：",
-    "papermark": "Papermark",
+    "papermark": "TaranVault",
     "copyright": "© {{year}}{{name}}"
   },
   "tabs": {

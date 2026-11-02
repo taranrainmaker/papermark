@@ -268,7 +268,7 @@ export function MobileMoreMenu({ open, onClose }: MobileMoreMenuProps) {
               onClick={onClose}
               className="flex w-full items-center justify-center rounded-lg bg-foreground px-4 py-3 text-sm font-medium text-background transition-colors hover:bg-foreground/90"
             >
-              Upgrade Papermark
+              Upgrade TaranVault
             </Link>
           </div>
         )}

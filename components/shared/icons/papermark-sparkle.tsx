@@ -1,4 +1,4 @@
-export default function PapermarkSparkle({
+export default function TaranVaultSparkle({
   className,
 }: {
   className?: string;

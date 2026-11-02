@@ -263,7 +263,7 @@ export function DataroomTrialModal({
               <div className="text-xs text-muted-foreground">
                 After the trial, upgrade to{" "}
                 <UpgradePlanModal clickedPlan={PlanEnum.Business}>
-                  <button className="underline">Papermark Business</button>
+                  <button className="underline">TaranVault Business</button>
                 </UpgradePlanModal>{" "}
                 to continue using advanced data room features.
               </div>

@@ -1,0 +1,10 @@
+
+:root {
+  --tv-navy: #102B50;
+  --tv-gold: #C9A34A;
+  --tv-white: #FFFFFF;
+  --tv-gray: #F3F5F8;
+}
+body {
+  background-color: var(--tv-gray);
+}

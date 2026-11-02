@@ -78,8 +78,8 @@ export default async function handle(
 
       const agreement = team.agreements[0];
 
-      // Check if the content is a Papermark URL
-      const isPapermarkUrl =
+      // Check if the content is a TaranVault URL
+      const isTaranVaultUrl =
         agreement.content.includes("papermark.com/view/") ||
         agreement.content.includes("www.papermark.com/view/");
 
@@ -87,11 +87,11 @@ export default async function handle(
       let filename: string;
       let link: any = null;
 
-      if (isPapermarkUrl) {
-        // Extract linkId from Papermark URL
+      if (isTaranVaultUrl) {
+        // Extract linkId from TaranVault URL
         const urlParts = agreement.content.split("/view/");
         if (urlParts.length < 2) {
-          return res.status(400).json("Invalid Papermark URL format");
+          return res.status(400).json("Invalid TaranVault URL format");
         }
 
         const linkId = urlParts[1].split(/[/?#]/)[0]; // Get linkId, remove any query params or fragments
@@ -127,7 +127,7 @@ export default async function handle(
         if (!link || !link.document) {
           return res
             .status(404)
-            .json("Document not found for the provided Papermark URL");
+            .json("Document not found for the provided TaranVault URL");
         }
 
         // Use the primary version if available, otherwise use the document file

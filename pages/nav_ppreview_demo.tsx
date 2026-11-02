@@ -34,7 +34,7 @@ export default function ViewPage() {
       case "papermark":
         return (
           <div className="text-2xl font-bold tracking-tighter text-white">
-            Papermark
+            TaranVault
           </div>
         );
       case "none":

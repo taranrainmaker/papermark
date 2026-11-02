@@ -99,7 +99,7 @@ export default function EmailVerificationClient() {
               <Link href="https://www.papermark.com" target="_blank">
                 <img
                   src="/_static/papermark-logo.svg"
-                  alt="Papermark Logo"
+                  alt="TaranVault Logo"
                   className="mb-24 h-7 w-auto self-start sm:mb-20"
                 />
               </Link>
@@ -133,7 +133,7 @@ export default function EmailVerificationClient() {
             <Link href="https://www.papermark.com" target="_blank">
               <img
                 src="/_static/papermark-logo.svg"
-                alt="Papermark Logo"
+                alt="TaranVault Logo"
                 className="mb-24 h-7 w-auto self-start sm:mb-20"
               />
             </Link>
@@ -217,7 +217,7 @@ export default function EmailVerificationClient() {
           </p>
 
           <p className="mt-10 w-full max-w-md px-4 text-xs text-muted-foreground sm:px-12">
-            By continuing, you agree to Papermark&apos;s{" "}
+            By continuing, you agree to TaranVault&apos;s{" "}
             <a
               href="https://www.papermark.com/terms"
               target="_blank"
@@ -266,7 +266,7 @@ function TestimonialSection() {
               }}
             >
               <p>
-                &quot;We raised €50M Fund with Papermark Data Rooms.
+                &quot;We raised €50M Fund with TaranVault Data Rooms.
                 <br />
                 Secure, branded, and incredibly easy to use.&quot;
               </p>

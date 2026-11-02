@@ -82,7 +82,7 @@ const SIGNING_EMBED_CSS = `
     }
 
     /* Flatten Documenso's heavy default shadows so the header and the
-       completed/waiting states sit cleanly inside the Papermark sheet. */
+       completed/waiting states sit cleanly inside the TaranVault sheet. */
     .embed--DocumentWidgetHeader,
     .embed--DocumentCompleted,
     .embed--WaitingForTurn {
@@ -197,7 +197,7 @@ export default function AgreementSection({
   const isChecked = !!data.hasConfirmedAgreement;
   const protectedLinkLabel = hideFooterOnAccessForm
     ? "protected link"
-    : "protected Papermark link";
+    : "protected TaranVault link";
   const visitorEmail = typeof data.email === "string" ? data.email.trim() : "";
   const visitorName = typeof data.name === "string" ? data.name.trim() : "";
   const currentSigningIdentity = `${visitorEmail}\n${visitorName}`;

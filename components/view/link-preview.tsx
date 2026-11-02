@@ -265,11 +265,11 @@ export default function LinkPreview({
             // viewer. We intentionally do not grant camera, microphone,
             // geolocation, clipboard, payment, USB, MIDI, etc. — even
             // allowlisted hosts shouldn't be able to access these from
-            // inside Papermark without an explicit opt-in.
+            // inside TaranVault without an explicit opt-in.
             allow="fullscreen 'self'"
             allowFullScreen
             // Send no referrer so the embedded host cannot learn anything
-            // about the Papermark viewer URL (link id, document id, query
+            // about the TaranVault viewer URL (link id, document id, query
             // params, etc.).
             referrerPolicy="no-referrer"
             // Sandbox the frame to the minimum capabilities required to
@@ -284,7 +284,7 @@ export default function LinkPreview({
             //     open a new tab (e.g. external help links).
             // Notably omitted (each of these expand the blast radius):
             //   - allow-top-navigation*: prevents the embed from
-            //     navigating Papermark's top-level window away.
+            //     navigating PT. Taran Rainmaker Group's top-level window away.
             //   - allow-popups-to-escape-sandbox: any popup the embed
             //     opens inherits the sandbox restrictions instead of
             //     becoming an unrestricted window.
@@ -324,7 +324,7 @@ export default function LinkPreview({
             {domain || linkName || "External Link"}
           </h2>
           <p className="max-w-md text-sm text-gray-500 dark:text-gray-400">
-            You&apos;re leaving Papermark. If you trust this link, click to
+            You&apos;re leaving TaranVault. If you trust this link, click to
             continue.
           </p>
           {linkUrl ? (

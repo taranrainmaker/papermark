@@ -1269,7 +1269,7 @@ export default function DataroomViewer({
                             >
                               {t("shell.secureFooter", "Secured by")}{" "}
                               <span className="font-semibold tracking-tight">
-                                Papermark
+                                TaranVault
                               </span>
                             </a>
                           </div>

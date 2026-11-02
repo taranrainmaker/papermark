@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150">
+<g transform="translate(8 12)">
+<path d="M22 82 C5 82 0 69 0 57 C0 41 13 29 29 29
+C36 8 56 0 76 5 C94 9 105 23 108 39
+C124 40 136 52 136 67 C136 82 124 94 108 94 H29"
+fill="none" stroke="#102B50" stroke-width="11" stroke-linecap="round"/>
+<path d="M53 38 H91 V84 H53 Z" fill="none" stroke="#C9A34A" stroke-width="6"/>
+<path d="M63 51 H82 M63 63 H82" stroke="#C9A34A" stroke-width="4" stroke-linecap="round"/>
+<path d="M102 63 V54 C102 42 119 42 119 54 V63" fill="none" stroke="#C9A34A" stroke-width="6"/>
+<rect x="99" y="61" width="23" height="21" rx="4" fill="#C9A34A"/>
+</g>
+<text x="165" y="91" font-family="Arial,sans-serif" font-size="64" font-weight="700" fill="#102B50">Taran</text>
+<text x="340" y="91" font-family="Arial,sans-serif" font-size="64" font-weight="700" fill="#C9A34A">Vault</text>
+</svg>

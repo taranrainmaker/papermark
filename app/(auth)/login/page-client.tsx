@@ -59,13 +59,13 @@ export default function Login() {
             <Link href="https://www.papermark.com" target="_blank">
               <img
                 src="/_static/papermark-logo.svg"
-                alt="Papermark Logo"
+                alt="TaranVault Logo"
                 className="mb-24 h-7 w-auto self-start sm:mb-20"
               />
             </Link>
             <Link href="/">
               <span className="text-balance text-3xl font-semibold text-gray-900">
-                Welcome to Papermark
+                Welcome to TaranVault
               </span>
             </Link>
             <h3 className="text-balance text-sm text-gray-800">
@@ -229,7 +229,7 @@ export default function Login() {
             </div>
           </div>
           <p className="mt-10 w-full max-w-md px-4 text-xs text-muted-foreground sm:px-12">
-            By continuing, you agree to Papermark&apos;s{" "}
+            By continuing, you agree to TaranVault&apos;s{" "}
             <a
               href="https://www.papermark.com/terms"
               target="_blank"
@@ -273,7 +273,7 @@ export default function Login() {
                 }}
               >
                 <p>
-                  &quot;We raised €50M Fund with Papermark Data Rooms.
+                  &quot;We raised €50M Fund with TaranVault Data Rooms.
                   <br />
                   Secure, branded, and incredibly easy to use.&quot;
                 </p>

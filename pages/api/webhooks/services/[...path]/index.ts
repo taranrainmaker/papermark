@@ -149,7 +149,7 @@ export default async function incomingWebhookHandler(
 ) {
   res.setHeader("Deprecation", "true");
   res.setHeader("Link", `<${API_DOCS_URL}>; rel="successor-version"`);
-  res.setHeader("X-Papermark-API-Notice", LEGACY_API_NOTICE);
+  res.setHeader("X-TaranVault-API-Notice", LEGACY_API_NOTICE);
 
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });

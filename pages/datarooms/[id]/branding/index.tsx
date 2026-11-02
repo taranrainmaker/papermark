@@ -1222,7 +1222,7 @@ export default function DataroomBrandPage() {
                               </Label>
                               <p className="text-xs text-muted-foreground">
                                 {isCustomBrand || hasInheritedEdits
-                                  ? "Visitors see no logo at all, not even the Papermark logo."
+                                  ? "Visitors see no logo at all, not even the TaranVault logo."
                                   : "This setting comes from the selected team brand."}
                               </p>
                             </div>

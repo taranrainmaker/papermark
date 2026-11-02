@@ -1,0 +1,19 @@
+
+:root {
+  --taranvault-navy: #102B50;
+  --taranvault-gold: #C9A34A;
+  --taranvault-white: #FFFFFF;
+  --taranvault-gray: #F3F5F8;
+}
+
+body {
+  background-color: var(--taranvault-gray);
+}
+
+a {
+  transition: color .2s ease;
+}
+
+button {
+  transition: background-color .2s ease, border-color .2s ease;
+}

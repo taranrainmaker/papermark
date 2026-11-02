@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { motion } from "motion/react";
 
-import PapermarkLogo from "@/public/_static/papermark-logo.svg";
+import TaranVaultLogo from "@/public/_static/papermark-logo.svg";
 
 import { Button } from "@/components/ui/button";
 
@@ -168,7 +168,7 @@ export default function NotificationPreferencesPage({
   return (
     <>
       <Head>
-        <title>Notification Preferences | Papermark</title>
+        <title>Notification Preferences | TaranVault</title>
       </Head>
       <div className="flex min-h-screen flex-col bg-gray-50">
         <header className="px-6 py-5">
@@ -178,10 +178,10 @@ export default function NotificationPreferencesPage({
             rel="noopener noreferrer"
           >
             <Image
-              src={PapermarkLogo}
+              src={TaranVaultLogo}
               width={119}
               height={32}
-              alt="Papermark"
+              alt="TaranVault"
             />
           </a>
         </header>
@@ -326,7 +326,7 @@ export default function NotificationPreferencesPage({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Papermark
+                TaranVault
               </a>
             </p>
           </motion.div>

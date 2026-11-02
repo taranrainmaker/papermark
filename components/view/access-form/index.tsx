@@ -300,7 +300,7 @@ export default function AccessForm({
                 className="font-medium"
                 style={{ color: accessFormTheme.mutedTextColor }}
               >
-                {t("footer.papermark", "Papermark")}
+                {t("footer.papermark", "TaranVault")}
               </a>
               .
             </p>
